@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSMeta</title>
+
+  <!-- Path relativo p/ a Folha de Estilos -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- Cabeçalho da página -->
+  <header>
+    <div class="header-logo-container">
+      <img src="./img/logo.svg" alt="DSMeta">
+      <h1>DSMeta</h1>
+      <p>
+        Desenvolvido por <a href="https://github.com/andresoftdev" rel="noopener" target="_blank">Carlos André</a>
+      </p>
+    </div>
+  </header>
+
+  <!-- main: Seção Principal da página -->
+  <main>
+
+    <!-- section: Seção reservada apenas p/ Vendas -->
+    <section id="vendas">
+
+      <!-- A div container servirá apenas p/ controlar a largura do Card -->
+      <div class="card-vendas-container">
+
+        <!-- Card das Vendas -->
+        <div class="card-vendas">
+          <h2 class="vendas-title">Vendas</h2>
+
+          <!-- div container p/ os inputs -->
+          <div>
+            <div class="form-control-container">
+              <input class="form-control" type="text" placeholder="01/01/2021">
+            </div>
+            <div class="form-control-container">
+              <input class="form-control" type="text" placeholder="01/12/2022">
+            </div>
+          </div>
+
+          <!-- div container p/ a Tabela -->
+          <div>
+
+            <!-- Tabela -->
+            <table class="table-vendas">
+
+              <!-- Cabeçalho da Tabela -->
+              <thead>
+
+                <!-- Linha da Tabela -->
+                <tr>
+                  <th class="show992">ID</th>
+                  <th class="show576">Data</th>
+                  <th>Vendedor</th>
+                  <th class="show992">Visitas</th>
+                  <th class="show992">Vendas</th>
+                  <th>Total</th>
+                  <th>Notificar</th>
+                </tr>
+              </thead>
+
+              <!-- Corpo da Tabela -->
+              <tbody>
+                <tr>
+
+                  <!-- A tag <td> (table data) serve para criar uma célula p/ inserção de dados -->
+                  <td class="show992">#001</td>
+                  <td class="show576">02/01/2022</td>
+                  <td>André</td>
+                  <td class="show992">15</td>
+                  <td class="show992">10</td>
+                  <td>R$ 55500.00</td>
+                  <td>
+                    <div class="red-btn-container">
+                      <div class="red-btn">
+                        <img src="./img/notification-icon.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="show992">#002</td>
+                  <td class="show576">05/02/2022</td>
+                  <td>Andrea</td>
+                  <td class="show992">15</td>
+                  <td class="show992">11</td>
+                  <td>R$ 60500.00</td>
+                  <td>
+                    <div class="red-btn-container">
+                      <div class="red-btn">
+                        <img src="./img/notification-icon.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="show992">#003</td>
+                  <td class="show576">08/03/2022</td>
+                  <td>Elaine</td>
+                  <td class="show992">15</td>
+                  <td class="show992">12</td>
+                  <td>R$ 65500.00</td>
+                  <td>
+                    <div class="red-btn-container">
+                      <div class="red-btn">
+                        <img src="./img/notification-icon.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="show992">#004</td>
+                  <td class="show576">12/04/2022</td>
+                  <td>Marcos</td>
+                  <td class="show992">15</td>
+                  <td class="show992">13</td>
+                  <td>R$ 70500.00</td>
+                  <td>
+                    <div class="red-btn-container">
+                      <div class="red-btn">
+                        <img src="./img/notification-icon.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="show992">#005</td>
+                  <td class="show576">18/05/2022</td>
+                  <td>Thiago</td>
+                  <td class="show992">15</td>
+                  <td class="show992">14</td>
+                  <td>R$ 75500.00</td>
+                  <td>
+                    <div class="red-btn-container">
+                      <div class="red-btn">
+                        <img src="./img/notification-icon.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
